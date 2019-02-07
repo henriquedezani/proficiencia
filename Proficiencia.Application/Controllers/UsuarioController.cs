@@ -34,12 +34,17 @@ namespace Proficiencia.Application.Controllers
         }
 
         [HttpPost]
-        public void Post([FromBody] Usuario model)
+        public ActionResult<Usuario> Post([FromBody] Usuario model)
         {
-            if(model != null)
+
+            if (!ModelState.IsValid)
             {
-                usuarioData.Insert(model);
-            }            
+                return BadRequest(ModelState);
+            }
+
+            var usuario = usuarioData.Insert(model);
+            
+            return CreatedAtAction("Get", new { id = usuario.Id });
         }
 
     }

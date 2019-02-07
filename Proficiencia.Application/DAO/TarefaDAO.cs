@@ -9,7 +9,7 @@ namespace Proficiencia.Application.DAO
 {
     public class TarefaDAO : Connection
     {
-        public void Insert(Tarefa tarefa)
+        public Tarefa Insert(Tarefa tarefa)
         {
             try
             {
@@ -19,7 +19,9 @@ namespace Proficiencia.Application.DAO
 
                     connection.Open();
                     SqlCommand command = new SqlCommand(query, connection);
-                    command.ExecuteNonQuery();                    
+                    command.ExecuteNonQuery();
+
+                    return tarefa;
                 }                               
             }
             catch (Exception ex)
@@ -49,8 +51,9 @@ namespace Proficiencia.Application.DAO
                         listaTarefas.Add(new Tarefa
                         {
                             Id = (int)dr[0],
-                            Conclusao = dr[1].ToString(),
-                            Descricao = dr[2].ToString()
+                            Id_Usuario = (int)dr[1],
+                            Conclusao = dr[2].ToString(),
+                            Descricao = dr[3].ToString()
                         });
                     }
 
@@ -85,8 +88,9 @@ namespace Proficiencia.Application.DAO
                         tarefa = new Tarefa
                         {
                             Id = (int)dr[0],
-                            Conclusao = dr[1].ToString(),
-                            Descricao = dr[2].ToString()
+                            Id_Usuario = (int)dr[1],
+                            Conclusao = dr[2].ToString(),
+                            Descricao = dr[3].ToString()
                         };
                     }
 

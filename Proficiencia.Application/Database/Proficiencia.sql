@@ -14,7 +14,7 @@ CREATE TABLE usuario
 CREATE TABLE tarefa
 (
 	id INT IDENTITY PRIMARY KEY,
-	id_usuario INT,
+	id_usuario INT NOT NULL,
 	descricao VARCHAR(250) NOT NULL,
 	conclusao VARCHAR(250) NOT NULL,
 	CONSTRAINT fk_tarefa_usuario_id 

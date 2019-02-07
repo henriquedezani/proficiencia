@@ -9,7 +9,7 @@ namespace Proficiencia.Application.DAO
 {
     public class UsuarioDAO : Connection
     {
-        public void Insert(Usuario usuario)
+        public Usuario Insert(Usuario usuario)
         {
             try
             {
@@ -20,6 +20,8 @@ namespace Proficiencia.Application.DAO
 
                     SqlCommand command = new SqlCommand(query, connection);
                     command.ExecuteNonQuery();
+
+                    return usuario;
                 }                               
             }
             catch (Exception)

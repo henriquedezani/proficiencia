@@ -28,12 +28,16 @@ namespace Proficiencia.Application.Controllers
         }
 
         [HttpPost]
-        public void Post([FromBody] Tarefa model)
+        public ActionResult<Tarefa> Post([FromBody] Tarefa model)
         {
-            if (model != null)
+            if (!ModelState.IsValid)
             {
-                tarefaData.Insert(model);
+                return BadRequest(ModelState);
             }
+
+            var tarefa = tarefaData.Insert(model);
+
+            return CreatedAtAction("Get", new { id = tarefa.Id});
         }
 
     }

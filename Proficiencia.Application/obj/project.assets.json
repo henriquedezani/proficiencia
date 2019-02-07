@@ -12955,11 +12955,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MAQ01LAB05\\Desktop\\Proficiencia\\Proficiencia.Application\\Proficiencia.Application.csproj",
+      "projectUniqueName": "C:\\Users\\MAQ01LAB05\\Documents\\proficiencia\\Proficiencia.Application\\Proficiencia.Application.csproj",
       "projectName": "Proficiencia.Application",
-      "projectPath": "C:\\Users\\MAQ01LAB05\\Desktop\\Proficiencia\\Proficiencia.Application\\Proficiencia.Application.csproj",
+      "projectPath": "C:\\Users\\MAQ01LAB05\\Documents\\proficiencia\\Proficiencia.Application\\Proficiencia.Application.csproj",
       "packagesPath": "C:\\Users\\MAQ01LAB05\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MAQ01LAB05\\Desktop\\Proficiencia\\Proficiencia.Application\\obj\\",
+      "outputPath": "C:\\Users\\MAQ01LAB05\\Documents\\proficiencia\\Proficiencia.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

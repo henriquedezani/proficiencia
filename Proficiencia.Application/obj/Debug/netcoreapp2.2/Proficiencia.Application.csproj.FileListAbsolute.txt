@@ -12,3 +12,17 @@ C:\Users\MAQ01LAB05\Desktop\Proficiencia\Proficiencia.Application\obj\Debug\netc
 C:\Users\MAQ01LAB05\Desktop\Proficiencia\Proficiencia.Application\obj\Debug\netcoreapp2.2\Proficiencia.Application.RazorTargetAssemblyInfo.cache
 C:\Users\MAQ01LAB05\Desktop\Proficiencia\Proficiencia.Application\obj\Debug\netcoreapp2.2\Proficiencia.Application.dll
 C:\Users\MAQ01LAB05\Desktop\Proficiencia\Proficiencia.Application\obj\Debug\netcoreapp2.2\Proficiencia.Application.pdb
+C:\Users\MAQ01LAB05\Documents\proficiencia\Proficiencia.Application\bin\Debug\netcoreapp2.2\Proficiencia.Application.deps.json
+C:\Users\MAQ01LAB05\Documents\proficiencia\Proficiencia.Application\bin\Debug\netcoreapp2.2\Proficiencia.Application.runtimeconfig.json
+C:\Users\MAQ01LAB05\Documents\proficiencia\Proficiencia.Application\bin\Debug\netcoreapp2.2\Proficiencia.Application.runtimeconfig.dev.json
+C:\Users\MAQ01LAB05\Documents\proficiencia\Proficiencia.Application\bin\Debug\netcoreapp2.2\Proficiencia.Application.dll
+C:\Users\MAQ01LAB05\Documents\proficiencia\Proficiencia.Application\bin\Debug\netcoreapp2.2\Proficiencia.Application.pdb
+C:\Users\MAQ01LAB05\Documents\proficiencia\Proficiencia.Application\obj\Debug\netcoreapp2.2\Proficiencia.Application.csprojAssemblyReference.cache
+C:\Users\MAQ01LAB05\Documents\proficiencia\Proficiencia.Application\obj\Debug\netcoreapp2.2\Proficiencia.Application.csproj.CoreCompileInputs.cache
+C:\Users\MAQ01LAB05\Documents\proficiencia\Proficiencia.Application\obj\Debug\netcoreapp2.2\Proficiencia.Application.RazorAssemblyInfo.cache
+C:\Users\MAQ01LAB05\Documents\proficiencia\Proficiencia.Application\obj\Debug\netcoreapp2.2\Proficiencia.Application.RazorAssemblyInfo.cs
+C:\Users\MAQ01LAB05\Documents\proficiencia\Proficiencia.Application\obj\Debug\netcoreapp2.2\Proficiencia.Application.AssemblyInfoInputs.cache
+C:\Users\MAQ01LAB05\Documents\proficiencia\Proficiencia.Application\obj\Debug\netcoreapp2.2\Proficiencia.Application.AssemblyInfo.cs
+C:\Users\MAQ01LAB05\Documents\proficiencia\Proficiencia.Application\obj\Debug\netcoreapp2.2\Proficiencia.Application.RazorTargetAssemblyInfo.cache
+C:\Users\MAQ01LAB05\Documents\proficiencia\Proficiencia.Application\obj\Debug\netcoreapp2.2\Proficiencia.Application.dll
+C:\Users\MAQ01LAB05\Documents\proficiencia\Proficiencia.Application\obj\Debug\netcoreapp2.2\Proficiencia.Application.pdb
